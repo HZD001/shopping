@@ -2,6 +2,9 @@ html,body,login,contBox,h2,h3,line,box,ul,li,a,button,img{
 	padding: 0;
 	margin: 0;
 }
+body{
+	background-color: #FCFCFC;
+}
 ul{
 	list-style: none;
 }
@@ -17,12 +20,49 @@ a{
 	width:1000px;height: 600px;
 	background: #FFFFFF;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 80px;
+	border-radius: 5px;
 }
 .leftBox{
 	padding-left: 35px;
 	padding-top: 40px;
 	float: left;
+}
+.leftBox>h2{
+	font-size: 28px;
+	line-height: 40px;
+	color: #333;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.leftBox>h3{
+	font-size: 16px;
+	font-style: helvetica neue,normal,微软雅黑;
+	line-height: 20px;
+	color: #333;
+	margin-bottom: 20px;
+	font-size: 300;
+}
+.line div{
+	clear: both;
+}
+.line span{
+	background: #ddd;
+	width: 56px;
+	height: 3px;
+	border-radius: 4px;
+	display: block;
+	float: left;
+	margin-left: 8px;
+}
+.line>.active{
+	background:#FF4D70;
+	width: 56px;
+	height: 3px;
+	border-radius: 4px;
+	display: block;
+	margin-left: 6px;
+	margin-bottom: 20px;
 }
 .box{
 	width: 410px;
@@ -46,7 +86,6 @@ a{
 .form li .admin img,.form li .lock img{
 	width: 23px;
 }
-/* .......... */
 .form input{
 	border: none;
 	outline: none;
@@ -54,6 +93,54 @@ a{
 	background-color: transparent !important;
 	padding:5px;
 }
+.operate{
+	margin-top: 10px;
+}
+.operate a{
+	font-size: 14px;
+	color: #333333;
+	line-height: 18px;
+	float: right;
+}
+.operate div{
+	clear: both;
+}
+.footer{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.footer button{
+	width: 150px;height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+.toReg{
+	background: #fff;
+	border: 1px solid #ff97ab;
+	box-shadow: 0 0 10px rgba(208,17,38,.17);
+	color: #ff4d70;
+}
+.loGin{
+	background: #FF4D70;
+	border: 2px solid #ffa1b3;
+	color: #fff;
+	float: right;
+}
+.toIndex{
+	width: 100px;
+}
+.toIndex img{
+	width: 20px;
+}
+.toIndex a{
+	font-size: 16px;
+	color: #666;
+	margin-left: 4px;
+	margin-bottom: 2px;
+}
+/* 右边图片 */
 .rightImg{
 	width: 444px;
 	float: right;

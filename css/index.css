@@ -2,3 +2,113 @@
 	width: 100%;
 	height:340px;
 }
+.banner{
+	height: 340px;
+	margin: 0;
+}
+.bannertimBox{
+	padding: 20px 0;
+	padding-bottom: 14px;
+	background-color: rgba(0,0,0,.04);
+}
+.mainBox{
+	width: 1260px;
+	margin:0 auto ;
+}
+.filterBoxWarp{
+	display: flex;
+}
+.spfl{
+	width: 168px;
+	height: 145px;
+	background-color: #f5a623;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 145px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.spfl img{
+	width: 30px;
+}
+.spfl p{
+	padding: 0;
+	line-height: 0;
+	margin-top: -50px;
+
+}
+.fliterRow{
+	display: flex;
+	list-style: none;
+	flex: 1;
+	flex-wrap: wrap;
+}
+.fliterRow li{
+	box-sizing: border-box;
+	width: 264px;
+	height: 68px;
+	background-color: #fff;
+	margin-right: 7px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .07);
+}
+.fliterRow li>a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	position: relative;
+}
+.topF{
+	display: block;
+	font-weight: 600;
+}
+.botF{
+	font-size: 14px;
+	color: rgba(0,0,0,.73);
+}
+.goLine{
+	width: 50px;
+	height: 22px;
+	border: 3px solid #fd1a1a;
+	border-radius: 20px;
+	position: absolute;
+	left: 160px;
+	top: 10px;
+	color:#fd1a1a;
+	font-size: 16px;
+	padding-left: 5px;
+	font-weight: 600;
+}
+.go2{
+	border-color: #ff7e23;
+	color: #ff7e23;
+}
+.go3{
+	border-color: #ffb616;
+	color: #ffb616;
+}
+.go4{
+	border-color: #05c54a;
+	color: #05c54a;
+}
+.g05{
+	border-color: #05c5b9;
+	color: #05c5b9;
+}
+.go6{
+	border-color: #15b0ff;
+	color: #15b0ff;
+}
+.go7{
+	border-color: #1599ff;
+	color: #1599ff;
+}
+.go8{
+	border-color: #153Dff;
+	color: #153Dff;
+}

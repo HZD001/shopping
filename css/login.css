@@ -111,12 +111,14 @@ a{
 	border-radius: 2px;
 }
 .toReg{
+	display: inline-block;
 	background: #fff;
 	border: 1px solid #ff97ab;
 	box-shadow: 0 0 10px rgba(208,17,38,.17);
 	color: #ff4d70;
 }
 .loGin{
+	display: block;
 	background: #FF4D70;
 	border: 2px solid #ffa1b3;
 	color: #fff;

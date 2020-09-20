@@ -86,10 +86,14 @@
 	color: #ff4d70;
 	font-weight: 400;
 	cursor: pointer;
+
 }
 .toreg{
 	color: #666;
 	cursor: pointer;
+}
+.tologin,.toreg{
+	text-decoration: none;
 }
 .inputSea{
 	margin: 0 auto;
